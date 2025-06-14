@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 2rem;
+}
+
+.app {
+  background-color: white;
+  max-width: 400px;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  padding: 0.5rem;
+  width: 70%;
+  margin-right: 0.5rem;
+}
+
+button {
+  padding: 0.5rem;
+  cursor: pointer;
+}
