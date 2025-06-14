@@ -1,16 +1,11 @@
-import React from "react";
-
 const Filter = ({ current, onChange }) => {
   return (
-    <div style={{ marginBottom: "1rem" }}>
+    <div className="filter-btns">
       {["all", "completed", "pending"].map((f) => (
         <button
           key={f}
           onClick={() => onChange(f)}
-          style={{
-            fontWeight: current === f ? "bold" : "normal",
-            marginRight: "0.5rem",
-          }}
+          className={current === f ? "active" : ""}
         >
           {f.charAt(0).toUpperCase() + f.slice(1)}
         </button>
